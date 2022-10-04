@@ -18,6 +18,6 @@ export default function Search() {
     return <section>
       <SearchForm pokemon={pokemon} setPokemon={setPokemon} onSubmit={searchPokedex} />
       <SearchResults results={searchResults} infiniteScrollRef={infiniteScrollRef}/>
-      <FormButton onClick={nextPage}>Moar</FormButton>
+      <FormButton onClick={nextPage}>More</FormButton>
     </section>
 }
