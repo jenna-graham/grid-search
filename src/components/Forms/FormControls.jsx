@@ -18,12 +18,12 @@ export function LabelText({ text, required }) {
 }
 
 export function FormButton({ children, ...rest }) {
-    return (
-      <button className={styles.FormButton} {...rest}>
-        {children}
-      </button>
-    );
-  }
+  return (
+    <button className={styles.FormButton} {...rest}>
+      {children}
+    </button>
+  );
+}
 
 export function InputControl({ label, required, ...rest }) {
   return (
