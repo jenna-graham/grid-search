@@ -37,6 +37,9 @@ patterns: [{ from: 'public' }],
     }),
 ],
 resolve: {
+    alias:{
+        process: 'process/browser',
+    },
     extensions: ['.js', '.jsx'],
 },
 module: {
